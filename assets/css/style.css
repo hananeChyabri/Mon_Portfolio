@@ -1,12 +1,4 @@
-:root {
-    --color: 200;
-    /*hsl(200, 62%, 26%).*/
-    --body-font: "Helvetica", sans-serif;
-    --body-color: "linear-gradient(-45deg, #2E6169 ,#054077 )";
-    --title-color: hsl(var(--color), 8%, 95%);
-    --active-color: hsl(183, 44%, 32%);
-    --box-color: hsl(var(--color), 57%, 21%);
-}
+
 
 
 
@@ -30,8 +22,8 @@ button {
 body {
     /* background : hsl(242, 19%, 5%);*/
     /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,29,121,1) 35%, rgba(0,212,255,1) 100%); */
-    background: linear-gradient(-45deg, #2E6169, #054077);
-    color: hsl(242, 8%, 85%);
+    background: var(--body-color);
+    color: var(--text-color);
 }
 
 h1,
@@ -71,27 +63,28 @@ input {
     position: fixed;
     width: 100px;
     height: 100vh;
-    background-color: #184F71;
+    background-color: var(--nav-color);
     /* background-color: #054077; */
-    border-right: 1px solid #0f3d59;
+    border-right: 1px solid var(--box-color);
 }
 
 .navLogo {
-    position: absolute;
+position: absolute;
     left: 0;
     right: 0;
     top: 1.8rem;
     width: 40px;
     height: 40px;
+    font-size: 24px;
     border-radius: 50%;
     background-color: var(--active-color);
     text-align: center;
-    margin: auto;
+    margin: auto; 
 }
 
 .nav__LogoText {
     font-size: 1.125rem;
-    color: hsl(242, 8%, 95%);
+    color: var(--title-color);
     font-weight: 600;
     line-height: 40%;
 }
@@ -118,7 +111,7 @@ input {
     height: 100%;
     line-height: 100px;
     padding: 0 1rem;
-    color: hsl(242, 8%, 95%);
+    color: var(--title-color);
     font-weight: 500;
     position: relative;
     transition: .4s;
@@ -168,6 +161,7 @@ input {
 .home{
 
     height: 100vh;
+    background-color: var(--home-color);
 }
 
 .home__container {
@@ -215,7 +209,7 @@ input {
 
 .info__icon {
     font-size: 1.8rem;
-    color: hsl(342, 92%, 46%);
+    color: var(--active-color);
     margin-right: .75rem;
 }
 
@@ -334,13 +328,13 @@ input {
     text-align: center;
     border-radius: .25rem;
     padding: 1rem 1.25rem;
-    background-color: #518E8F;
+    background-color: var(--active-color);
 }
 
 
 
 .buttonLien {
-    color: hsl(242, 8%, 95%);
+    color: var(--title-color);
 }
 
 .mdi {
@@ -501,4 +495,99 @@ input {
     background-color: var(--active-color);
     color: var(--title-color);
 
+}
+
+/*portfolio pop up */
+
+.portfolio__popup
+{
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--body-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 100;
+     opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.portfolio__popup.open{
+opacity: 1;
+visibility: visible;
+}
+
+.portfolio__popup_inner
+{
+    background-color: var(--box-color);
+    width: 900px;
+    border-radius: .5rem;
+    padding: 2.5rem;
+    position: relative;
+   
+
+
+}
+
+.portfolio__popup-content
+{
+   grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.portfolio__popup-close
+{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--active-color);
+    cursor: pointer;
+}
+
+.portfolio__popup-img
+{
+    border-radius: .5rem;
+}
+.portfolio__popup-subtitle
+{
+    font-size: .813rem;
+    margin-bottom: .25rem;
+}
+.details__title
+{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.details__description
+{
+    font-size: .813rem;
+    margin-bottom: 2rem;
+}
+
+.details__info li {
+    margin-bottom: 0.75rem;
+    text-transform: capitalize;
+    font-size: .813rem;
+}
+
+.details__info li:last-child
+{
+    margin-bottom: 0;
+}
+
+.details__info li span {
+    font-weight: normal;
+}
+
+.details__info li a {
+    text-transform: lowercase;
+    color: var(--active-color);
 }

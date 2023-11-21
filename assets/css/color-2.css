@@ -1,0 +1,12 @@
+:root {
+    --color: 242;
+    /*hsl(200, 62%, 26%).*/
+    --body-font: "Helvetica", sans-serif;
+    --body-color: hsl(var(--color), 19%, 5%);
+    --title-color: hsl(var(--color), 8%, 95%);
+    --text-color: hsl(242, 8%, 85%);    
+    --active-color: hsl(342, 92%, 46%);
+    --box-color: hsl(var(--color), 14%, 10%);
+    /* --nav-color: hsl(var(--color), 12%, 38%); */
+    --home-color : #17191D;
+}
