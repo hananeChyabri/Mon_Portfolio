@@ -1,0 +1,11 @@
+:root {
+    --color: 200;
+    /*hsl(200, 62%, 26%).*/
+    --body-font: "Helvetica", sans-serif;
+    --body-color: #FDFAFF;
+    --title-color: #3F3D49;
+    --text-color: #3F3D49;
+    --active-color: #FF2C38;
+    --box-color: #F3F4FD;
+    --home-color : #F3F4FD;
+}

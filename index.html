@@ -8,8 +8,17 @@
 
   <!-- Main CSS  -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="/assets/css/switchStyle.css" rel="stylesheet" />
 
+  <!-- Style switcher -->
+  <link rel="stylesheet" href="/assets/css/color-1.css" class="styleSwich" title="color-1" >
+  <link rel="stylesheet" href="/assets/css/color-2.css" class="styleSwich" title="color-2" disabled>
+  <link rel="stylesheet" href="/assets/css/color-3.css" class="styleSwich" title="color-3" disabled>
+  <link href="/assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -51,13 +60,30 @@
     <section class="home" id="home">
       <div class="home__container container grid">
 
+        <!-- <h1 class="home__name">Hello my name is <span class="name">Hanane Chyabri</span></h1>
+        <div class="home__perfil">
+          <div class="home__image">
+            <img src="assets/images/work3.jpg" alt="" class="home__img">
+          </div>
+          <div class="home__info">
+            <p class="home__description"><b>Back end devlopper</b>I develop and code elegantly simple solutions on the back end of web
+              applications,
+              and I have a deep passion for my work.</p>
+
+              <div class="button about__Button"><a href="#about" class="buttonLien">More about Me</a>
+
+                <i class="mdi mdi-arrow-right"></i>
+              </div>
+          </div>
+        </div> -->
+
         <div class="home__info">
-          <h1 class="home__title">Hi I am Hanane</h1>
+          <h1 class="home__title">Hello my name is <span class="name">Hanane Chyabri</span></h1>
           <h3 class="home__subtitle">Back end devlopper</h3>
           <p class="home__description">I develop and code elegantly simple solutions on the back end of web
             applications,
             and I have a deep passion for my work.</p>
-          <div class="button"><a href="#about" class="buttonLien">More about Me</a>
+          <div class="button about__Button"><a href="#about" class="buttonLien">More about Me</a>
 
             <i class="mdi mdi-arrow-right"></i>
           </div>
@@ -215,7 +241,7 @@
         </div>
 
         <div class="work__card mix javascript">
-          <img src="assets/images/work1.jpg" class="img__work">
+          <img src="assets/images/work2.jpg" class="img__work">
           <h3 class="work__title"></h3>
           <span class="work__button">Demo
             <i class="uil uil-arrow-right work__button-icon"></i>
@@ -234,9 +260,9 @@
           </div>
         </div>
 
-        <div class="work__card mix php">
-          <img src="assets/images/work1.jpg" class="img__work">
-          <h3 class="work__title"></h3>
+        <div class="work__card mix php javascript">
+          <img src="assets/images/work3.jpg" class="img__work">
+          <h3 class="work__title">Plantes</h3>
           <span class="work__button">Demo
             <i class="uil uil-arrow-right work__button-icon"></i>
           </span>
@@ -255,7 +281,7 @@
         </div>
 
         <div class="work__card mix htmlCss">
-          <img src="assets/images/work1.jpg" class="img__work">
+          <img src="assets/images/work4.png" class="img__work">
           <h3 class="work__title"></h3>
           <span class="work__button">Demo
             <i class="uil uil-arrow-right work__button-icon"></i>
@@ -275,7 +301,7 @@
         </div>
 
         <div class="work__card mix csharp">
-          <img src="assets/images/work1.jpg" class="img__work">
+          <img src="assets/images/work5.png" class="img__work">
           <h3 class="work__title"></h3>
           <span class="work__button">Demo
             <i class="uil uil-arrow-right work__button-icon"></i>
@@ -295,7 +321,7 @@
         </div>
 
         <div class="work__card mix csharp">
-          <img src="assets/images/work1.jpg" class="img__work">
+          <img src="assets/images/work6.jpg" class="img__work">
           <h3 class="work__title"></h3>
           <span class="work__button">Demo
             <i class="uil uil-arrow-right work__button-icon"></i>
@@ -315,44 +341,59 @@
         </div>
       </div>
     </section>
+
+    <!-- popo up portfolio  -->
+    <div class="portfolio__popup">
+      <div class="portfolio__popup_inner">
+        <div class="portfolio__popup-content grid">
+          <span class="portfolio__popup-close">
+            <i class="uil uil-times"></i>
+          </span>
+          <div class="pp__img">
+            <img src="assets/images/work1.jpg" alt="" class="portfolio__popup-img">      
+          </div>
+        
+        <div class="portfolio__popup-info">
+          <div class="portfolio__popup-subtitle"><span class="">Javascript</span></div>
+          <div class="portfolio__popup-body">
+            <h3 class="details__title">un projet javascript de hjhgjhj ghj jghj</h3>
+            <p class="detail__description">Lorem ipsum  elit. Quidem cupiditate vero explicabo labore suscipit praesentium. Architecto reiciendis sit velit voluptatum laboriosam tempore excepturi tempora, quia debitis est eius magni consequatur!</p>
+            <ul class="details__info">
+            <li>Technologies - 
+              <span>html css javascript</span>
+            </li>
+            <li>view
+              <span><a href="">www.domaine</a></span>
+            </li>
+          </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
   </main>
 
 
 
+<div class="style__Switch">
+  <div class="style__switch-toggle switch-icon">
+    <i class="fas fa-cog fa-spin"></i>
+    <!-- <i class="uil uil-spin"></i> -->
+  </div>
 
-
-  <!-- <section id="home">
-      
-            <div class="text">
-                Hello I am a <span class="">back-end web developer.</span>
-                <br>I develop and code elegantly simple solutions on the back end of web applications, and I have a deep passion for my work.
-            </div>
-  
-            <div class="button">
-              View my work
-            </div>
-
-            <div>
-                <nav class="">
-                    <div class="">
-                      <div class="" dest="home"></div>
-                      <div class="" dest="about">about</div>
-                      <div class="" dest="ExpEduca">Experience/Education</div>
-                      <div class="" dest="skills">Skills</div>
-                      <div class="" dest="portfolio">portfolio</div>
-                      <div class="" dest="contact">contact</div>
-                    </div>
-                  </nav>
-            </div>
-  
-        </section> -->
-
-
+<h4 class="themeColors">theme Colors</h4>
+<div class="colors">
+  <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+  <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+  <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+</div>
+</div>
 
   <!-- ABOUT -->
 <!-- librairie js MIXITUP  -->
 <script src="assets/js/mixitup.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/style-switch.js"></script>
 
 </body>
 
