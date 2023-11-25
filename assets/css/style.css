@@ -207,6 +207,10 @@ position: absolute;
     font-weight: 500;
 }
 
+.name {
+    font-family: 'Dancing Script', cursive;
+}
+
 .info__icon {
     font-size: 1.8rem;
     color: var(--active-color);
