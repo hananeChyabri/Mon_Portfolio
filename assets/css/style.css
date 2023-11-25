@@ -1,7 +1,3 @@
-
-
-
-
 * {
     margin: 0px;
     padding: 0px;
@@ -206,7 +202,11 @@ position: absolute;
 .info__title {
     font-weight: 500;
 }
-
+.info__icon{
+    font-size: 1.8rem;
+    color: var(--active-color);
+    margin-right: 0.75rem;
+}
 .name {
     font-family: 'Dancing Script', cursive;
 }
@@ -405,6 +405,7 @@ position: absolute;
 
 }
 
+
 .timeline__item:hover .circle__dote {
     background-color: var(--body-color);
 }
@@ -459,7 +460,14 @@ position: absolute;
     background-color: var(--box-color);
     padding: 1.25rem;
     border-radius: .5rem;
+    cursor: pointer;
 }
+
+.work__card:hover{
+    transform: scale(1.1);
+    /*object-position: bottom;*/
+  }
+
 
 .portfolio__item-details {
     display: none;
@@ -595,3 +603,65 @@ visibility: visible;
     text-transform: lowercase;
     color: var(--active-color);
 }
+
+.skills_container{
+
+        grid-template-columns: repeat(3, 330px);
+        gap: 1.8rem;
+        justify-content: center;
+        padding-top: 1rem;
+
+}
+
+.into__skills
+{
+    max-width: 100%;
+  height: auto;
+}
+
+.details__skills{
+    position :relative;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.4em;
+    padding-left: 35px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.skill__card {
+    background-color: var(--box-color);
+    padding: 1.25rem;
+    border-radius: .5rem;
+}
+
+
+
+
+.details__skills::before {
+    content: "";
+
+  width: 1px;
+  position: absolute;
+  left: .48rem;
+  top: 0;
+  height: 100%;
+  background-color: var(--active-color);
+  transition: .3s;
+  }
+  .h3__dote
+  {
+    margin-bottom: 5px;
+    opacity: 0.3;
+  color: white;
+  display: block;
+  margin-left: -8px;
+  font-weight: normal;
+  font-size: 14px;
+  }
+
+  .skills_title{
+    font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  }
