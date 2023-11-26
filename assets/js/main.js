@@ -11,6 +11,12 @@ buttonAboutMe.addEventListener("mouseout", () => {
     icon.classList.toggle("fa-rotate-90");
 });
 
+
+ // Fonction pour afficher l'infobulle au clic sur une zone
+ function afficherInfobulle(zone) {
+    let infobulle = document.getElementById(zone.getAttribute('data-info'));
+    infobulle.classList.toggle("displayStyle");
+  }
 // configuration mixitup
 
 let mixerPortfolio = mixitup('.work__container', {
@@ -31,6 +37,20 @@ document.addEventListener("click", (event) => {
         OpenClosePortfolio();
         portfolioItemDetails(event.target.parentElement);
     }
+});
+/*fonction pour changer le couleur de l element active du menu*/
+const navElements = document.querySelectorAll(".nav__link");
+navElements.forEach(element => {
+   
+    element.addEventListener('click',(event)=>
+    {
+        navElements.forEach(item => {
+            item.classList.remove('active-link');
+        });
+        event.target.classList.add("active-link");
+
+    });
+    
 });
 
 

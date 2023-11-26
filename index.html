@@ -116,10 +116,28 @@
 
       <div class="about__container container grid">
         <div>
-          <img src="assets/images/about-img.jpg" alt="" class="about__img">
+          <!-- <img src="assets/images/work4.png" alt="" class="about__img"> -->
           <!-- <div class="button"><a href="#contact" class="buttonLien"> Contacte Me</a>
 
             </div> -->
+
+            <!-- Image avec des zones cliquables et des infobulles -->
+<div style="position: relative;">
+  <img src="assets/images/work4.png" usemap="#workmap" alt="" style="width: 400px;">
+
+  <!-- Définition des zones de la carte -->
+  <map name="workmap">
+    <area shape="rect" coords="50,50,150,150" alt="Zone 1" data-info="info1" onclick="afficherInfobulle(this)">
+    <area shape="circle" coords="250,120,50" alt="Zone 2" data-info="info2" onclick="afficherInfobulle(this)">
+    <!-- Ajoutez d'autres zones avec leurs coordonnées si nécessaire -->
+  </map>
+
+  <!-- Infobulles -->
+  <div class="infobulle" id="info1" style="top: 11%; left: -62px;">Information sur la zone 1</div>
+  <div class="infobulle" id="info2" style="top: 130px; left: 220px;">Information sur la zone 2</div>
+  <!-- Ajoutez d'autres infobulles avec des positions différentes -->
+</div>
+
 
         </div>
 
@@ -322,7 +340,7 @@
         </div>
 
         <div class="work__card mix php javascript">
-          <img src="assets/images/work3.jpg" class="img__work">
+          <img src="assets/images/projetPlantePhp.png" class="img__work">
           <h3 class="work__title">Plantes</h3>
           <span class="work__button">Demo
             <i class="uil uil-arrow-right work__button-icon"></i>
@@ -337,7 +355,7 @@
                 <span>html css javascript</span>
               </li>
               <li>view
-                <span><a href="">www.domaine</a></span>
+                <span><a href="http://wad06.interface3.be/project1/public/plante/trouver_une_plante">www.trouverPlante</a></span>
               </li>
             </ul>
           </div>
