@@ -1,0 +1,10 @@
+{
+    "nav__home": "Acceuil",
+    "nav__about": "A propos",
+    "nav__skills": "Compétences",
+    "nav__portfolio": "Projets",
+    "nav__contact": "Contact",
+    "home__title": "Bonjour je m'apelle Hanane",
+    "home__subtitle": "Devloppeuse Back end",
+    "home__description": "je suis une développeuse junior passionnée du back-end, douée pour concevoir des solutions web robustes. Compétente dans les langages back-end, je complète mes compétences avec une solide compréhension des technologies front-end, notamment en JavaScript, assurant ainsi un développement web complet et efficace."
+}

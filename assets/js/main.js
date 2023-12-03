@@ -12,11 +12,11 @@ buttonAboutMe.addEventListener("mouseout", () => {
 });
 
 
- // Fonction pour afficher l'infobulle au clic sur une zone
- function afficherInfobulle(zone) {
+// Fonction pour afficher l'infobulle au clic sur une zone
+function afficherInfobulle(zone) {
     let infobulle = document.getElementById(zone.getAttribute('data-info'));
     infobulle.classList.toggle("displayStyle");
-  }
+}
 // configuration mixitup
 
 let mixerPortfolio = mixitup('.work__container', {
@@ -33,24 +33,53 @@ let mixerPortfolio = mixitup('.work__container', {
 document.addEventListener("click", (event) => {
     console.log(event.target.classList);
     if (event.target.classList.contains("work__button") || event.target.classList.contains("img__work")) {
-    
+
         OpenClosePortfolio();
         portfolioItemDetails(event.target.parentElement);
     }
 });
-/*fonction pour changer le couleur de l element active du menu*/
+/*fonction pour changer la couleur de l element active du menu*/
 const navElements = document.querySelectorAll(".nav__link");
 navElements.forEach(element => {
-   
-    element.addEventListener('click',(event)=>
-    {
+
+    element.addEventListener('click', (event) => {
         navElements.forEach(item => {
             item.classList.remove('active-link');
         });
         event.target.classList.add("active-link");
 
     });
-    
+
+});
+
+//changer la couleur de le lemet active dans le filtre portfolio 
+
+
+
+
+const filtrWorkElements = document.querySelectorAll(".work__item");
+filtrWorkElements.forEach(element => {
+
+    element.addEventListener('click', (event) => {
+        filtrWorkElements.forEach(item => {
+            item.classList.remove('active-work');
+        });
+        event.target.classList.add("active-work");
+
+    });
+
+});
+
+
+
+/* arreter l animation au clique sur le point dans l image de soft skills  */
+
+const pins = document.querySelectorAll('.pin');
+pins.forEach(element => {
+    element.addEventListener('click', () => {
+        element.classList.toggle('paused');
+});
+
 });
 
 

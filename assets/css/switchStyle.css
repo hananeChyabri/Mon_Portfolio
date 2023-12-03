@@ -90,3 +90,26 @@
     border: 1px solid var(--active-color);
 }
 
+
+
+.langue__switch-toggle p {
+    line-height: 40px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.langue__switch-toggle p
+{
+    color : black;
+}
+
+.langue__switch-toggle .active__laguage
+{
+    color:white;
+}
+
+.style__Switch .langue__switch-toggle
+{
+    top: 55px;
+}
+

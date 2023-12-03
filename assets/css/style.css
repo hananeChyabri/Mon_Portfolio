@@ -177,8 +177,10 @@ input {
 }
 
 .home__description {
-    /* max-width: 450px; */
-    margin-bottom: 2rem;
+    margin-bottom: 7rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .my__info {
@@ -209,7 +211,7 @@ input {
     margin-right: 0.75rem;
 }
 
-.name {
+.textDancing {
     font-family: 'Dancing Script', cursive;
 }
 
@@ -320,8 +322,15 @@ input {
 }
 
 .about__description {
-    width: 50%;
+    width: 58%;
     margin: auto;
+}
+
+.about__description .textDancing
+{
+    font-size: 1.25rem;
+    color: var(--active-color);
+    font-weight: 600;
 }
 
 .about_info {
@@ -668,7 +677,7 @@ input {
     display: none;
     padding: 1rem;
     background-color: var(--active-color);
-    color: var(--text-color);
+    color: var(--title-color);
     border-radius: 54px;
     z-index: 1000;
     width: 153px;
@@ -695,7 +704,8 @@ input {
     top: 11%;
     left: -62px;
 
-    top: 11%; left: -62px;
+    top: 11%;
+    left: -62px;
 }
 
 .zone-2 {
@@ -781,3 +791,7 @@ input {
         opacity: 0;
     }
 }
+
+.pin.paused::after {
+    animation-play-state: paused;
+  }
