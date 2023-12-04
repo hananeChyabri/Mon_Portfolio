@@ -6,5 +6,10 @@
     "nav__contact": "Contact",
     "home__title": "Bonjour je m'apelle Hanane",
     "home__subtitle": "Devloppeuse Back end",
-    "home__description": "je suis une développeuse junior passionnée du back-end, douée pour concevoir des solutions web robustes. Compétente dans les langages back-end, je complète mes compétences avec une solide compréhension des technologies front-end, notamment en JavaScript, assurant ainsi un développement web complet et efficace."
+    "home__description": "je suis une développeuse junior passionnée du back-end, douée pour concevoir des solutions web robustes. Compétente dans les langages back-end, je complète mes compétences avec une solide compréhension des technologies front-end, notamment en JavaScript, assurant ainsi un développement web complet et efficace.",
+    "about__title" : "Apropot de Moi",
+    "about__description": "Passionate about web development, my educational background and professional journey have equipped me with robust technical skills in web development. ",
+    "about__image_title": "To discover my soft skills, click on the dots within the image.",
+    "qualification_title": "Education",
+    "timeline__text1": "Formation web application devlopper"
 }

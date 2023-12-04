@@ -6,5 +6,10 @@
     "nav__contact": "Contact",
     "home__title": "Hello my name is Hanane Chyabri",
     "home__subtitle": "Back end devlopper",
-    "home__description": "I am a passionate junior back-end developer with a flair for crafting robust web solutions. Proficient in back-end languages, I complement my skills with a strong understanding of front-end technologies, particularly in JavaScript, ensuring holistic and efficient web development"
+    "home__description": "I am a passionate junior back-end developer with a flair for crafting robust web solutions. Proficient in back-end languages, I complement my skills with a strong understanding of front-end technologies, particularly in JavaScript, ensuring holistic and efficient web development",
+    "about__title" : "About Me",
+    "about__description": "Passionate about web development, my educational background and professional journey have equipped me with robust technical skills in web development. ",
+    "about__image_title": "mTo discover my soft skills, click on the dots within the image.",
+    "qualification_title": "Education",
+    "timeline__text1": "Web Applicatio devlopper"
 }
