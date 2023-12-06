@@ -1,15 +1,29 @@
 {
-    "nav__home": "Acceuil",
-    "nav__about": "A propos",
-    "nav__skills": "Compétences",
-    "nav__portfolio": "Projets",
-    "nav__contact": "Contact",
-    "home__title": "Bonjour je m'apelle Hanane",
-    "home__subtitle": "Devloppeuse Back end",
-    "home__description": "je suis une développeuse junior passionnée du back-end, douée pour concevoir des solutions web robustes. Compétente dans les langages back-end, je complète mes compétences avec une solide compréhension des technologies front-end, notamment en JavaScript, assurant ainsi un développement web complet et efficace.",
-    "about__title" : "Apropot de Moi",
-    "about__description": "Passionate about web development, my educational background and professional journey have equipped me with robust technical skills in web development. ",
-    "about__image_title": "To discover my soft skills, click on the dots within the image.",
-    "qualification_title": "Education",
-    "timeline__text1": "Formation web application devlopper"
+    "head": {
+        "title": "Web Dev | Hanane Chyabri"
+    },
+    "menu": [
+        "Acceuil",
+        "A propos",
+        "Compétences",
+        "Projets",
+        "Contact"
+    ],
+    "home": {
+        "title": "Bonjour je m'apelle Hanane",
+        "subtitle": "Devloppeuse web junior",
+        "description": "je suis une développeuse junior passionnée du back-end, douée pour concevoir des solutions web robustes. Compétente dans les langages back-end, je complète mes compétences avec une solide compréhension des technologies front-end, notamment en JavaScript, assurant ainsi un développement web complet et efficace.",
+        "marquee": "Looking for a 8 weeks Web Developer internship from 17 April 2024 to 9 June 2024."
+    },
+    "about": {
+        "about__title": "Apropot de Moi",
+        "about__description": "",
+        "about__image_title": "mTo discover my soft skills, click on the dots within the image.",
+        "qualification_title": "Education",
+        "timeline__text1": "Formation web application devlopper"
+       
+    },
+    "skills": {
+        "h2": "Skills"
+    }
 }
