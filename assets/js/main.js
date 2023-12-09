@@ -98,3 +98,18 @@ function portfolioItemDetails(parentElement) {
     document.querySelector(".portfolio__popup-body").innerHTML = parentElement.querySelector(".portfolio__item-details").innerHTML;
 }
 
+/*afficher plus de description en cliquant sur plus*/
+
+function toggleDescription() {
+    const moreText = document.querySelector('.more__description');
+    const readMoreBtn = document.querySelector('.read-more');
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "block";
+        readMoreBtn.textContent = "Moins";
+    } else {
+        moreText.style.display = "none";
+        readMoreBtn.textContent = "... Plus";
+    }
+}
+

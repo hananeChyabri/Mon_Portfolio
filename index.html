@@ -66,10 +66,24 @@
         <div class="home__info">
           <h1 class="home__title textDancing">Hello my name is Hanane Chyabri</h1>
           <h3 class="home__subtitle">Back end devlopper</h3>
-          <p class="home__description">
-            I am a passionate junior back-end developer with a flair for crafting robust web solutions. Proficient in
-            back-end languages, I complement my skills with a strong understanding of front-end technologies,
-            particularly in JavaScript, ensuring holistic and efficient web development</p>
+          <!-- <p class="home__description"> -->
+
+          <p class="home__description short__description">
+            "Passionnée par la création digitale et la résolution de problèmes, je suis développeuse web junior
+            enthousiaste et créative
+          </p>
+          <p class="home__description more__description" style="display: none;">
+            Mon parcours académique a toujours été étroitement lié à l'informatique. J'ai obtenu mon premier diplôme de
+            technicien informatique en 2012, suivi d'une formation en réseaux et télécommunications. Cependant, pour me
+            spécialiser davantage et suivre ma véritable passion, j'ai pris la décision de suivre la formation web
+            application devlopper chez Interface 3. C'est là que j'ai pu me plonger dans le domaine qui m'inspire
+            vraiment : la création d'applications web et le développement, où je trouve un réel épanouissement. À
+            travers chaque ligne de code, je cherche à donner vie à des idées et à construire des solutions innovantes.
+            je me spécialise davantage dans le développement backend, tout en possédant de solides compétences en
+            front-end, notamment en JavaScript, l'un de mes langages préférés
+          </p>
+          <p class="read-more" onclick="toggleDescription()">... Plus</p>
+          <!-- </p> -->
           <div class="button about__Button"><a href="#about" class="buttonLien">More about Me</a>
 
             <i class="fas fa-angle-right"></i>
@@ -125,7 +139,7 @@
 
           <!-- Image avec des zones cliquables et des infobulles -->
           <div class="soft__skills" style="position: relative;">
-            <p class="textDancing">To discover my soft skills, click on the dots within the image.</p>
+            <p class="textDancing about__img__text">To discover my soft skills, click on the dots within the image.</p>
             <img src="assets/images/work4.png" alt="" style="width: 400px;">
 
             <!-- Définition des zones de la carte -->
@@ -310,7 +324,9 @@
           </span>
           <div class="portfolio__item-details">
             <h3 class="details__title"></h3>
-            <p class="detail__description">The website your are navigating right now allows me to display my different projets, professional background and web developer skills. This website is entirely programmed with the web trio HTML/CSS/JavaScript and the integration of MixItUp v3.3.1 library.</p>
+            <p class="detail__description">The website your are navigating right now allows me to display my different
+              projets, professional background and web developer skills. This website is entirely programmed with the
+              web trio HTML/CSS/JavaScript and the integration of MixItUp v3.3.1 library.</p>
             <ul class="details__info">
               <li>Technologies -
                 <span>html css javascript</span>
@@ -470,7 +486,7 @@
 
 
   <div class="style__Langues">
-  
+
     <div class="langue__switch-toggle switch-icon">
       <p>
         <span class="english active__laguage">EN</span>/<span class="frensh">FR</span>
@@ -498,6 +514,7 @@
   <script src="assets/js/mixitup.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/style-switch.js"></script>
+  <script src="assets/js/langue-switch.js"></script>
 
 </body>
 

@@ -176,11 +176,26 @@ input {
     margin-bottom: .75rem;
 }
 
-.home__description {
-    margin-bottom: 7rem;
+.home__description
+{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1%;
+    line-height: 1.6;
+    text-align: justify;
+
+}
+
+.short__description{
+    text-indent: 1rem;
+ 
+}
+
+.read-more {
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 7rem;
 }
 
 .my__info {
@@ -322,8 +337,7 @@ input {
     margin: auto;
 }
 
-.soft__skills .textDancing
-{
+.soft__skills .textDancing {
     font-size: 1rem;
     color: var(--active-color);
     font-weight: 600;
@@ -663,9 +677,10 @@ input {
     font-size: 14px;
 }
 
-.skills , .portfolio{
+.skills,
+.portfolio {
     padding: 3.5rem 0px 2rem;
-    
+
 }
 
 .skills_title {
@@ -797,4 +812,4 @@ input {
 
 .pin.paused::after {
     animation-play-state: paused;
-  }
+}

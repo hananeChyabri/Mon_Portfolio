@@ -12,17 +12,45 @@
     "home": {
         "title": "Bonjour je m'apelle Hanane",
         "subtitle": "Devloppeuse web junior",
-        "description": "je suis une développeuse junior passionnée du back-end, douée pour concevoir des solutions web robustes. Compétente dans les langages back-end, je complète mes compétences avec une solide compréhension des technologies front-end, notamment en JavaScript, assurant ainsi un développement web complet et efficace.",
+        "short_description": "Passionnée par la création digitale et la résolution de problèmes, je suis développeuse web junior enthousiaste et créative.",
+        "more_description": "Mon parcours académique a toujours été étroitement lié à l'informatique. J'ai obtenu mon premier diplôme de technicien informatique en 2012, suivi d'une formation en réseaux et télécommunications. Cependant, pour me spécialiser davantage et suivre ma véritable passion, j'ai pris la décision de suivre la formation web application devlopper chez Interface 3. C'est là que j'ai pu me plonger dans le domaine qui m'inspire vraiment : la création d'applications web et le développement, où je trouve un réel épanouissement. À travers chaque ligne de code, je cherche à donner vie à des idées et à construire des solutions innovantes. je me spécialise davantage dans le développement backend, tout en possédant de solides compétences en front-end, notamment en JavaScript, l'un de mes langages préférés.",
         "marquee": "Looking for a 8 weeks Web Developer internship from 17 April 2024 to 9 June 2024."
     },
     "about": {
         "about__title": "Apropot de Moi",
-        "about__description": "",
-        "about__image_title": "mTo discover my soft skills, click on the dots within the image.",
+        "about__description": "Passionné par le développement web, mon parcours éducatif et mon évolution continue dans ce domaine ont favorisé le développement de solides compétences techniques en développement web, accompagnées d'un ensemble solide de compétences personelles",
+        "about__image_title": "Pour découvrir mes soft skills, cliquez sur les points sur l'image.",
         "qualification_title": "Education",
         "timeline__text1": "Formation web application devlopper"
        
     },
+    "formation_lieu": [
+        "Interface 3 Bruxelles",
+        "ENSA Oujda Maroc",
+        "EST Oujda Maroc",
+        "Lalla Asmae Maroc"
+    ],
+    "formation_title": [
+        "web application devlopper",
+        "Reseau et telecommunication",
+        "Diplome Universitaire de technologies",
+        "bac science mathematique"
+    ],
+    "experience_lieu": [
+        "Capgemini Espagne",
+        "Ayaline Oujda"
+    ],
+    "experience_title": [
+        "Consultante Junior",
+        "Satge de Fin d'études"
+    ],
+    "soft_skills": [
+        "Je suis attentif aux détails et je fais preuve de responsabilité.",
+        "J'aime mes enfants, mes parents et la programmation.",
+        "Je suis organisée et je respecte les délais impartis.",
+        "Je possède une capacité d'apprentissage rapide pour les langages de programmation et une aptitude à saisir rapidement la logique derriere à chaque langage",
+        "Contact"
+    ],
     "skills": {
         "h2": "Skills"
     }
