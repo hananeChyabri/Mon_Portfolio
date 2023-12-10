@@ -73,6 +73,13 @@ for (let i = 0; i < nav_items.length; i++) {
     nav_items[i].innerText = data.menu[i];
 }
 
+/*generer les infobulles de mes soft skills*/
+const infobulle_items = document.querySelectorAll(".infobulle");
+for (let i = 0; i < infobulle_items.length; i++) {
+    infobulle_items[i].innerText = data.soft_skills[i];
+}
+
+
  document.querySelector('.home__title').innerText = data.home.title;
  document.querySelector('.home__subtitle').innerText = data.home.subtitle;
  document.querySelector('.short__description').innerText = data.home.short_description;

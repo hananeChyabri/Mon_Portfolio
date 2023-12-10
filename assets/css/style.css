@@ -176,8 +176,7 @@ input {
     margin-bottom: .75rem;
 }
 
-.home__description
-{
+.home__description {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -187,9 +186,9 @@ input {
 
 }
 
-.short__description{
+.short__description {
     text-indent: 1rem;
- 
+
 }
 
 .read-more {
@@ -727,18 +726,18 @@ input {
 }
 
 .zone-2 {
-    top: 59px;
-    left: 205px;
+    top: 23%;
+    left: 57%;
 
 }
 
 .infobulle__zone2 {
-    top: 0px;
-    left: 220px;
+    top: 6%;
+  left: 64%;
 }
 
 .zone-3 {
-    top: 152px;
+    top: 50%;
     left: 78px;
 
 }
@@ -751,13 +750,13 @@ input {
 }
 
 .zone-4 {
-    top: 33%;
-    left: 265px;
+    top: 43%;
+  left: 67%;
 
 }
 
 .infobulle__zone4 {
-    top: 27%;
+    top: 36%;
     left: 75%;
 
 
@@ -770,10 +769,8 @@ input {
 }
 
 .infobulle__zone5 {
-    top: 53%;
-    left: 75%;
-
-
+    top: 71%;
+    left: 69%
 }
 
 .pin {
