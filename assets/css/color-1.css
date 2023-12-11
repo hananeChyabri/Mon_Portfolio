@@ -5,7 +5,9 @@
     --body-color: linear-gradient(-45deg, #2E6169, #054077);
     --title-color: hsl(var(--color), 8%, 95%);
     --text-color: hsl(242, 8%, 85%);
-    --active-color: hsl(183, 44%, 32%);
+    /* --active-color: hsl(183, 44%, 32%); */
+    --active-color: hsl(183.3, 100%, 50%);
+   
     --box-color: hsl(var(--color), 57%, 21%);
     --nav-color: #184F71;
 }

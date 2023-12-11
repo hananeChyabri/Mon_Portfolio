@@ -2,10 +2,10 @@
     --color: 200;
     /*hsl(200, 62%, 26%).*/
     --body-font: "Helvetica", sans-serif;
-    --body-color: #FDFAFF;
+    --body-color: #F3F4FD;
     --title-color: #3F3D49;
     --text-color: #3F3D49;
     --active-color: #FF2C38;
-    --box-color: #F3F4FD;
-    --home-color : #F3F4FD;
+    --box-color: HSL(240, 100%, 99%);
+    --home-color : HSL(240, 100%, 99%);
 }

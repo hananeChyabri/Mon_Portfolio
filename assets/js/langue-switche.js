@@ -73,22 +73,14 @@ for (let i = 0; i < nav_items.length; i++) {
     nav_items[i].innerText = data.menu[i];
 }
 
-/*generer les infobulles de mes soft skills*/
-const infobulle_items = document.querySelectorAll(".infobulle");
-for (let i = 0; i < infobulle_items.length; i++) {
-    infobulle_items[i].innerText = data.soft_skills[i];
-}
-
-
  document.querySelector('.home__title').innerText = data.home.title;
  document.querySelector('.home__subtitle').innerText = data.home.subtitle;
- document.querySelector('.short__description').innerText = data.home.short_description;
- document.querySelector('.more__description').innerText = data.home.more_description;
- document.querySelector('.about_info .section__title').innerText = data.about.about__title;
- document.querySelector('.about__description').innerText = data.about.about__description;
+ document.querySelector('.home__description').innerText = data.home.description;
+ document.querySelector('.about_info .section__title').innerText = data.about__title;
+// document.querySelector('.about__description').innerText = data.about__description;
 // document.querySelector('.about__description .textDancing').innerText = data.about__image_title;
- document.querySelector('.qualification_title').innerText = data.about.qualification_title;
- document.querySelector('.about__img__text').innerText = data.about.about__image_title;
+ document.querySelector('.qualification_title').innerText = data.qualification_title;
+
  document.querySelectorAll('.timeline__item .timeline__text')[0].innerText = data.timeline__text1;
 
  
