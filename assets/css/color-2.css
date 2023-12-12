@@ -7,6 +7,6 @@
     --text-color: hsl(242, 8%, 85%);    
     --active-color: hsl(342, 92%, 46%);
     --box-color: hsl(var(--color), 14%, 10%);
-    /* --nav-color: hsl(var(--color), 12%, 38%); */
-    --home-color : #17191D;
+    --nav-color: #0A0A0F
+    /* --home-color : #17191D; */
 }
