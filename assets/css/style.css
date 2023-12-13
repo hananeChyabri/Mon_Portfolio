@@ -54,6 +54,26 @@ input {
 
 
 /*navbar*/
+.my-button {
+
+    position: absolute;
+    left: 65%;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: var(--active-color);
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+
+.my-button:focus {
+    outline: none;
+}
+
 
 .navbar {
     position: fixed;
@@ -62,6 +82,10 @@ input {
     background-color: var(--nav-color);
     /* background-color: #054077; */
     border-right: 1px solid var(--box-color);
+}
+
+#navbar.hidden {
+    display: none;
 }
 
 .navLogo {
@@ -733,7 +757,7 @@ input {
 
 .infobulle__zone2 {
     top: 6%;
-  left: 64%;
+    left: 64%;
 }
 
 .zone-3 {
@@ -751,7 +775,7 @@ input {
 
 .zone-4 {
     top: 43%;
-  left: 67%;
+    left: 67%;
 
 }
 
@@ -809,4 +833,76 @@ input {
 
 .pin.paused::after {
     animation-play-state: paused;
+}
+
+
+/***********************************************media query**********************************************/
+
+@media (max-width: 1200px) {
+
+    .navbar {
+        width: 50px;
+    }
+
+    .nav__list {
+        display: none;
+
+        flex-direction: row-reverse;
+        margin: -25px auto 0 100px;
+    }
+    ul.show {
+        display: flex;
+    }
+
+    .my-button {
+        display: block;
+    }
+
+    nav {
+        background-color: rgb(62, 109, 149);
+    }
+
+    .skills_container {
+        grid-template-columns: repeat(2, 45%);
+
+    }
+
+    .work__container {
+        grid-template-columns: repeat(2, 45%);
+
+    }
+}
+
+
+@media (max-width: 800px) {
+   
+
+    .about__container {
+        display: block;
+    }
+
+    .skills_container {
+        grid-template-columns: repeat(2, 45%);
+
+    }
+
+
+
+  
+}
+
+@media (max-width: 600px) {
+    .qualification_container {
+        display: block;
+    }
+
+    .skills_container {
+        grid-template-columns: repeat(1, 80%);
+
+    }
+
+    .work__container {
+        grid-template-columns: repeat(1, 80%);
+
+    }
 }

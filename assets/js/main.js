@@ -113,3 +113,33 @@ function toggleDescription() {
     }
 }
 
+
+// Sélection du menu
+const navbar = document.getElementById('navbar');
+
+// Fonction pour masquer le menu sur la première section
+function toggleNavbarVisibility() {
+   
+  const homeSection = document.querySelector('.home');
+
+  if (homeSection.getBoundingClientRect().bottom>0) {
+   
+    navbar.classList.add('hidden');
+  } else {
+    navbar.classList.remove('hidden');
+  }
+}
+
+// Événement pour détecter le défilement de la fenêtre et appeler la fonction
+window.addEventListener('scroll', toggleNavbarVisibility);
+
+// Appel initial de la fonction pour vérifier l'état du menu au chargement de la page
+toggleNavbarVisibility();
+
+
+const button = document.getElementById("my-button");
+const nav = document.querySelector(".nav__list");
+
+button.addEventListener('click', () => {
+  nav.classList.toggle('show');
+});
