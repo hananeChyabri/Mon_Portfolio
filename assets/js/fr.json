@@ -13,8 +13,8 @@
         "title": "Bonjour je m'apelle Hanane",
         "subtitle": "Devloppeuse web junior",
         "short_description": "Passionnée par la création digitale et la résolution de problèmes, je suis développeuse web junior enthousiaste et créative.",
-        "more_description": "Mon parcours académique a toujours été étroitement lié à l'informatique. J'ai obtenu mon premier diplôme de technicien informatique en 2012, suivi d'une formation en réseaux et télécommunications. Cependant, pour me spécialiser davantage et suivre ma véritable passion, j'ai pris la décision de suivre la formation web application devlopper chez Interface 3. C'est là que j'ai pu me plonger dans le domaine qui m'inspire vraiment : la création d'applications web et le développement, où je trouve un réel épanouissement. À travers chaque ligne de code, je cherche à donner vie à des idées et à construire des solutions innovantes. je me spécialise davantage dans le développement backend, tout en possédant de solides compétences en front-end, notamment en JavaScript, l'un de mes langages préférés. je suis aussi convaincue que je suis doté d'une remarquable facilité d'apprentissage pour les langages de programmation et d'une capacité innée à comprendre rapidement la logique derriere chaque langage.",
-        "marquee": "Looking for a 8 weeks Web Developer internship from 17 April 2024 to 9 June 2024."
+        "more_description": "Mon parcours académique a toujours été étroitement lié à l'informatique. J'ai obtenu mon premier diplôme de technicien informatique en 2012, suivi d'une formation en réseaux et télécommunications. Cependant, pour me spécialiser davantage et suivre ma véritable passion, j'ai pris la décision de suivre la formation web application devlopper auprès Interface 3 à Bruxelles. C'est là que j'ai pu me plonger dans le domaine qui m'inspire vraiment : la création d'applications web et le développement, où je trouve un réel épanouissement. À travers chaque ligne de code, je cherche à donner vie à des idées et à construire des solutions innovantes. je me spécialise davantage dans le développement backend, tout en possédant de solides compétences en front-end, notamment en JavaScript, l'un de mes langages préférés. je suis aussi convaincue que je suis doté d'une remarquable facilité d'apprentissage pour les langages de programmation et d'une capacité innée à comprendre rapidement la logique derriere chaque langage.",
+        "marquee": "Dans le cadre de ma formation, je suis à la recherche d'un stage de 8 semaines, désireuse d'approfondir mes connaissances à travers une expérience concrète. "
     },
     "about": {
         "about__title": "Apropot de Moi",
@@ -49,9 +49,13 @@
         "J'aime mes enfants, mes parents et la programmation.",
         "Je suis organisée et je respecte les délais impartis.",
         "Capacité d'apprentissage rapide pour les langages de programmation",
-        "Contact"
+        "Face à des défis, j'adopte une approche proactive et trouve des solutions efficaces."
     ],
     "skills": {
         "h2": "Skills"
+    },
+    "contact": {
+       "message": "Je suis convaincue que mon profil dynamique et mon enthousiasme pour le développement font de moi une candidate intéressante capable de contribuer de manière significative au sein de votre équipe. "
     }
+
 }

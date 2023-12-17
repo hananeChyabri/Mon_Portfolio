@@ -608,7 +608,10 @@ input {
 
 .portfolio__popup-img {
     border-radius: .5rem;
+    height: 312px;
 }
+
+
 
 .portfolio__popup-subtitle {
     font-size: .813rem;
@@ -862,6 +865,9 @@ input {
         background-color: rgb(62, 109, 149);
     }
 
+    .home{
+        margin-left: -20%;
+    }
     .skills_container {
         grid-template-columns: repeat(2, 45%);
 
