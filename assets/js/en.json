@@ -12,7 +12,8 @@
     "home": {
         "title": "Hello my name is Hanane Chyabri",
         "subtitle": "Junior Web Developer",
-        "description": "I am a passionate junior back-end developer with a flair for crafting robust web solutions. Proficient in back-end languages, I complement my skills with a strong understanding of front-end technologies, particularly in JavaScript, ensuring holistic and efficient web development",
+        "short_description": "Passionate about digital creation and problem-solving, I am an enthusiastic and creative junior web developer.",
+        "more_description": "My academic journey has always been closely related to computer science. I obtained my first diploma in computer technology in 2012, followed by training in networks and telecommunications. However, to specialize further and pursue my true passion, I made the decision to undertake training in web application development at Interface 3 in Brussels. That's where I was able to delve into the field that truly inspires me: web application creation and development, where I find genuine fulfillment. Through every line of code, I aim to bring ideas to life and build innovative solutions. I specialize more in backend development while also possessing strong frontend skills, particularly in JavaScript, one of my favorite languages. Additionally, I am convinced that I have a remarkable ability to quickly learn programming languages and an innate capacity to rapidly grasp the logic behind each language.",
         "marquee": "Looking for a 8 weeks Web Developer internship from 17 April 2024 to 9 June 2024."
     },
     "about": {
@@ -35,7 +36,26 @@
         "Technicien info",
         "bac science mathematique"
     ],
+    "experience_lieu": [
+        "Capgemini Espagne",
+        "Ayaline Oujda"
+    ],
+    "experience_title": [
+        "Consultante Junior",
+        "Satge de Fin d'études"
+    ],
+    "soft_skills": [
+        "I am attentive to details and I demonstrate responsibility.",
+        "I love my children, my parents, and programming.",
+        "I am organized and I respect given deadlines.",
+        "Quick learning ability for programming languages.",
+        "When faced with challenges, I take a proactive approach and find effective solutions."
+    ],
     "skills": {
         "h2": "Skills"
+    },
+    "contact": {
+       "message": "Je suis convaincue que mon profil dynamique et mon enthousiasme pour le développement font de moi une candidate intéressante capable de contribuer de manière significative au sein de votre équipe. "
     }
+
 }
