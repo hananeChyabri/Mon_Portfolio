@@ -218,7 +218,7 @@ input {
 }
 
 .read-more {
-    color: blue;
+    color:var(--active-color);
     cursor: pointer;
     margin-bottom: 7rem;
 }
