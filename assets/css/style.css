@@ -313,7 +313,7 @@ input {
 /*section about */
 .section {
     padding: 6.5rem 0 2rem;
-
+    height: 100vh;
 }
 
 .about {
@@ -482,7 +482,7 @@ input {
 /* CSS SECTION WORK  */
 
 .work__container {
-    grid-template-columns: repeat(3, 330px);
+    grid-template-columns: repeat(4, 330px);
     gap: 1.8rem;
     justify-content: center;
     padding-top: 1rem;
@@ -654,7 +654,7 @@ input {
 
 .skills_container {
 
-    grid-template-columns: repeat(3, 330px);
+    grid-template-columns: repeat(4, 330px);
     gap: 1.8rem;
     justify-content: center;
     padding-top: 1rem;
@@ -846,6 +846,7 @@ input {
 /***********************************************media query**********************************************/
 
 @media (max-width: 1200px) {
+  
 
     .navbar {
         width: 50px;
@@ -873,19 +874,19 @@ input {
         margin-left: -20%;
     }
     .skills_container {
-        grid-template-columns: repeat(2, 45%);
+        grid-template-columns: repeat(3, 30%);
 
     }
 
     .work__container {
-        grid-template-columns: repeat(2, 45%);
+        grid-template-columns: repeat(3, 30%);
 
     }
 }
 
 
-@media (max-width: 800px) {
-   
+@media (max-width: 992px) {
+  
 
     .about__container {
         display: block;
@@ -895,13 +896,20 @@ input {
         grid-template-columns: repeat(2, 45%);
 
     }
+    .work__container {
+        grid-template-columns: repeat(2, 45%);
+
+    }
 
 
 
   
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
+    .section {
+        height: auto;
+    }
     .qualification_container {
         display: block;
     }
