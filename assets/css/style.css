@@ -107,7 +107,7 @@ input {
     color: var(--title-color);
     font-weight: 600;
     line-height: 40%;
-   
+
 
 }
 
@@ -219,7 +219,7 @@ input {
 }
 
 .read-more {
-    color:var(--active-color);
+    color: var(--active-color);
     cursor: pointer;
     margin-bottom: 7rem;
 }
@@ -842,11 +842,89 @@ input {
     animation-play-state: paused;
 }
 
+.img__contact {
+    width: 70%;
+    margin-left: 10%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* ... */
+}
+
+.image__container {
+    position: relative;
+
+}
+
+.img__contact {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.link-contact {
+    position: absolute;
+    left: 44%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    column-gap: 5rem;
+    bottom: 4.25rem;
+}
+.icon__contact
+{
+    font-size: 5rem;
+}
+
+.subtitle__contact
+{
+    color: #528abc;
+}
+
+
+
 
 /***********************************************media query**********************************************/
 
-@media (max-width: 1200px) {
-  
+@media (max-width: 1400px) {
+
+    .home {
+        margin-left: -10%;
+    }
+
+    .skills_container {
+        grid-template-columns: repeat(3, 30%);
+
+    }
+
+    .work__container {
+        grid-template-columns: repeat(3, 30%);
+
+    }
+
+    .section {
+        height: auto;
+    }
+
+    .skills_container {
+
+        margin-right: 65px;
+        margin-left: 6%;
+    }
+
+    .work__container {
+        margin-right: 65px;
+        margin-left: 6%;
+    }
+}
+
+
+@media (max-width: 992px) {
+
 
     .navbar {
         width: 50px;
@@ -858,6 +936,7 @@ input {
         flex-direction: row-reverse;
         margin: -25px auto 0 100px;
     }
+
     ul.show {
         display: flex;
     }
@@ -870,23 +949,6 @@ input {
         background-color: rgb(62, 109, 149);
     }
 
-    .home{
-        margin-left: -20%;
-    }
-    .skills_container {
-        grid-template-columns: repeat(3, 30%);
-
-    }
-
-    .work__container {
-        grid-template-columns: repeat(3, 30%);
-
-    }
-}
-
-
-@media (max-width: 992px) {
-  
 
     .about__container {
         display: block;
@@ -896,20 +958,29 @@ input {
         grid-template-columns: repeat(2, 45%);
 
     }
+
     .work__container {
         grid-template-columns: repeat(2, 45%);
 
     }
 
 
+    .skills_container {
 
-  
+        margin-right: 55px;
+        margin-left: 0;
+    }
+
+    .work__container {
+        margin-right: 55px;
+        margin-left: 0;
+        
+    }
+
 }
 
 @media (max-width: 576px) {
-    .section {
-        height: auto;
-    }
+
     .qualification_container {
         display: block;
     }

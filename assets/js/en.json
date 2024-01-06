@@ -52,7 +52,10 @@
         "When faced with challenges, I take a proactive approach and find effective solutions."
     ],
     "skills": {
-        "h2": "Skills"
+        "title_section": "Skills"
+    },
+    "portfolio": {
+        "title_section": "My Works"
     },
     "porjects_titles": [
         "Portfolio",

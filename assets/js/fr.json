@@ -52,7 +52,10 @@
         "Face à des défis, j'adopte une approche proactive et trouve des solutions efficaces."
     ],
     "skills": {
-        "h2": "Skills"
+        "title_section": "Compétences"
+    },
+    "portfolio": {
+        "title_section": "Mes Projets"
     },
     "porjects_titles": [
         "Portfolio",
