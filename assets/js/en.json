@@ -54,6 +54,22 @@
     "skills": {
         "h2": "Skills"
     },
+    "porjects_titles": [
+        "Portfolio",
+        "Code canvas.",
+        "Ma Plante",
+        "TO-DO LIST",
+        "WeatherApp - Projet React météo",
+        "Exercices: C# | ASP | Python |PHP"
+    ],
+    "porjects_description": [
+        "The website your are navigating right now allows me to display my different projets, professional background and web developer skills. This website is entirely programmed with the web trio HTML/CSS/JavaScript and the integration of MixItUp v3.3.1 library.",
+        "The project created in a 3-day hackathon by a team of 4 aimed to develop an interactive page showcasing the importance and role of HTML, CSS, and JavaScript in a web page. Initially, it displayed a basic web page in pure HTML. As the user clicked through, they could choose between 2 different styles to apply to the page. Additionally, they had the ability to add CSS animations and save their preferred version of the page (demonstrating the role of PHP and databases in a web project.) The project provided an opportunity to work as a team and practice using Git.",
+        "Ma Plante",
+        "TO-DO LIST",
+        "WeatherApp - Projet React météo",
+        "An ensemble of diversified exercises in C#, ASP.NET, Python, PHP, HTML/CSS covering foundational control structures to advanced concepts such as exception handling, collections, and object-oriented programming "
+    ],
     "contact": {
        "message": "Je suis convaincue que mon profil dynamique et mon enthousiasme pour le développement font de moi une candidate intéressante capable de contribuer de manière significative au sein de votre équipe. "
     }
