@@ -12,13 +12,16 @@
     "home": {
         "title": "Bonjour je m'apelle Hanane",
         "subtitle": "Devloppeuse web junior",
-        "short_description": "Passionnée par la création digitale et la résolution de problèmes, je suis une développeuse web junior enthousiaste et créative.",
-        "more_description": "Mon parcours académique a toujours été étroitement lié à l'informatique. J'ai obtenu mon premier diplôme de technicien informatique en 2012, suivi d'une formation en réseaux et télécommunications. Cependant, pour me spécialiser davantage et suivre ma véritable passion, j'ai pris la décision de suivre la formation en développement d'applications web à Interface 3 à Bruxelles. C'est là que j'ai pu plonger dans le domaine qui m'inspire vraiment : la création d'applications web et le développement, où je trouve un réel épanouissement. À travers chaque ligne de code, je cherche à donner vie à des idées et à construire des solutions innovantes. Je me spécialise davantage dans le développement backend, tout en possédant de solides compétences en front-end, notamment en JavaScript, l'un de mes langages préférés. De plus, je suis convaincue de posséder une remarquable facilité d'apprentissage pour les langages de programmation et une capacité innée à comprendre rapidement la logique derrière chaque langage.",
+        "short_description": "Passionnée par la création digitale et la résolution de problèmes, je suis une développeuse web junior enthousiaste et créative, animée par le désir constant d'innover et de créer des solutions novatrices.Je suis à la recherche d'un stage de développement web de 8 semaines, du 17 avril 2024 au 9 juin 2024",
         "marquee": "Dans le cadre de ma formation, je suis à la recherche d'un stage de 8 semaines, désireuse d'approfondir mes connaissances à travers une expérience concrète. "
     },
+    "home_description": [
+        "Les premières lignes de code que j'ai écrites en console de commande en langage C restent gravées dans ma mémoire. Cette expérience initiale a allumé la flamme de ma passion pour la programmation. Aujourd'hui, je me lance dans une nouvelle aventure captivante en apprenant à développer un BackEnd dans l'environnement Microsoft. Chaque ligne de code est une étape vers l'excellence, et chaque projet est une opportunité de repousser mes limites et de perfectionner mes compétences dans le monde passionnant de la programmation."
+
+    ],
     "about": {
         "about__title": "A propos de Moi",
-        "about__description": "Passionné par le développement web, mon parcours éducatif et mon évolution continue dans ce domaine ont favorisé le développement de solides compétences techniques en développement web, accompagnées d'un ensemble solide de compétences personelles",
+        "about__description": "Mes différentes formations, études et expériences m'ont permis de développer et de renforcer des qualités personnelles, essentielles dans mon parcours de développeuse junior.",
         "about__image_title": "Pour découvrir mes soft skills, cliquez sur les points sur l'image.",
         "qualification_title": "Études/Formations",
         "timeline__text1": "Formation web application devlopper"
@@ -32,9 +35,15 @@
     ],
     "formation_title": [
         "Formation de Web Application Developer",
-        "Reseau et telecommunication",
-        "Diplome Universitaire de technologies",
-        "bac science mathematique"
+        "Réseau et télécommunication",
+        "Technicien informatique",
+        "baccalauréat scientifique mathématiques"
+    ],
+    "formation_date": [
+        "2023-2024",
+        "2012 - 2015",
+        "2010 - 2012",
+        "2010 "
     ],
     "experience_lieu": [
         "Capgemini Espagne",

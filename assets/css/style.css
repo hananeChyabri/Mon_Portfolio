@@ -222,6 +222,7 @@ input {
     color: var(--active-color);
     cursor: pointer;
     margin-bottom: 7rem;
+    margin-top: 2rem;
 }
 
 .my__info {
@@ -341,7 +342,7 @@ input {
 .about__container {
 
     display: flex;
-    column-gap: 4rem;
+    column-gap: 9rem;
     align-items: center;
 
 }
@@ -408,7 +409,7 @@ input {
 /* Qualification section */
 .qualification_container {
     display: flex;
-    column-gap: 3rem;
+    column-gap: 9rem;
     justify-content: center;
 }
 
@@ -429,6 +430,11 @@ input {
 .timeline__item:last-child {
     margin-bottom: 0;
 
+}
+
+.timeline_description
+{
+    width: 245px;
 }
 
 .timeline__item::before {
@@ -467,6 +473,12 @@ input {
 }
 
 .timeline__text {
+    font-size: .813rem;
+    margin-top: 1rem;
+}
+
+.timeline__info 
+{
     font-size: .813rem;
     margin-top: 1rem;
 }
@@ -680,6 +692,7 @@ input {
     background-color: var(--box-color);
     padding: 1.25rem;
     border-radius: .5rem;
+    height: 390px;
 }
 
 
@@ -894,6 +907,10 @@ input {
 
     .home {
         margin-left: -10%;
+    }
+    .qualification_container {
+     
+        column-gap: 4rem;
     }
 
     .skills_container {

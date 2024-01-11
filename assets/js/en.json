@@ -10,15 +10,18 @@
         "Contact"
     ],
     "home": {
-        "title": "Hello my name is Hanane Chyabri",
+        "title": "Hello Word : My name is Hanane Chyabri",
         "subtitle": "Junior Web Developer",
-        "short_description": "Passionate about digital creation and problem-solving, I am an enthusiastic and creative junior web developer.",
-        "more_description": "My academic journey has always been closely related to computer science. I obtained my first diploma in computer technology in 2012, followed by training in networks and telecommunications. However, to specialize further and pursue my true passion, I made the decision to undertake training in web application development at Interface 3 in Brussels. That's where I was able to delve into the field that truly inspires me: web application creation and development, where I find genuine fulfillment. Through every line of code, I aim to bring ideas to life and build innovative solutions. I specialize more in backend development while also possessing strong frontend skills, particularly in JavaScript, one of my favorite languages. Additionally, I am convinced that I have a remarkable ability to quickly learn programming languages and an innate capacity to rapidly grasp the logic behind each language.",
+        "short_description": "Passionate about digital creation and problem-solving, I am an enthusiastic and creative junior web developer, I am Looking for a 8 weeks Web Developer internship from 17 April 2024 to 9 June 2024.",
         "marquee": "Looking for a 8 weeks Web Developer internship from 17 April 2024 to 9 June 2024."
     },
+    "home_description": [
+        "My academic journey has always been closely linked to computer science. In 2012, I obtained my first degree in computer technology, followed by in-depth training in networks and telecommunications. However, eager for specialization and driven by my true passion, I decided to fully dedicate myself to my education in web application development at Interface 3, Brussels. This experience allowed me to intensely explore the field that truly inspires me: web application creation and development, where I find genuine fulfillment. Through every line of code, I strive to bring ideas to life and build innovative solutions. My specialization primarily focuses on backend development, while also strengthening my skills in frontend, particularly in JavaScript, one of my preferred languages. Furthermore, my ability to quickly learn programming languages and my innate aptitude to swiftly grasp the logic behind each language reinforce my belief in my capacity to evolve and adapt swiftly in this ever-evolving field.",
+        "My initial lines of code were written in the C language, thus laying the foundations of my passion for programming. Currently, my enthusiasm is directed towards C#, where I aim to deepen my knowledge and apply it in practical ways. I am seeking opportunities that will allow me to broaden my skills and fully harness the potential of the C# language in tangible projects."
+    ],
     "about": {
         "about__title": "About Me",
-        "about__description": "Passionate about web development, my educational background and ongoing journey in the field have fostered robust technical skills in web development, accompanied by a strong set of soft skills ",
+        "about__description": "My educational background and ongoing journey in the field have fostered robust technical skills in web development, accompanied by a strong set of soft skills ",
         "about__image_title": "To discover my soft skills, click on the dots within the image.",
         "qualification_title": "Studies/training",
         "timeline__text1": "Web Applicatio devlopper"
@@ -32,17 +35,23 @@
     ],
     "formation_title": [
         "Web Application Developer Training",
-        "Reseau et telecommunication",
-        "Technicien info",
-        "bac science mathematique"
+        "Networking and telecommunications training",
+        "Computer Technician training",
+        "Mathematical Sciences"
+    ],
+    "formation_date": [
+        "2023-2024",
+        "2012 - 2015",
+        "2010 - 2012",
+        "2010 "
     ],
     "experience_lieu": [
         "Capgemini Espagne",
         "Ayaline Oujda"
     ],
     "experience_title": [
-        "Consultante Junior",
-        "Satge de Fin d'études"
+        "Junior Consultant",
+        "Graduation Internship"
     ],
     "soft_skills": [
         "I am attentive to details and I demonstrate responsibility",
