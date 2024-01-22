@@ -11,12 +11,12 @@
     ],
     "home": {
         "title": "Bonjour je m'apelle Hanane",
-        "subtitle": "Devloppeuse web junior",
-        "short_description": "Passionnée par la création digitale et la résolution de problèmes, je suis une développeuse web junior enthousiaste et créative, animée par le désir constant d'innover et de créer des solutions novatrices.Je suis à la recherche d'un stage de développement web de 8 semaines, du 17 avril 2024 au 9 juin 2024",
-        "marquee": "Dans le cadre de ma formation, je suis à la recherche d'un stage de 8 semaines, désireuse d'approfondir mes connaissances à travers une expérience concrète. "
+        "subtitle": "Devloppeuse web junior"
     },
     "home_description": [
-        "Les premières lignes de code que j'ai écrites en console de commande en langage C restent gravées dans ma mémoire. Cette expérience initiale a allumé la flamme de ma passion pour la programmation. Aujourd'hui, je me lance dans une nouvelle aventure captivante en apprenant à développer un BackEnd dans l'environnement Microsoft. Chaque ligne de code est une étape vers l'excellence, et chaque projet est une opportunité de repousser mes limites et de perfectionner mes compétences dans le monde passionnant de la programmation."
+        "Je me souviens de mes premières lignes de code écrites sur la console en C en 2010...",
+        "Passionnée par la création digitale et la résolution de problèmes, et dotée d'une expérience significative en automatisation des tests, j'ai décidé de donner une spécialisation supplémentaire à mon parcours et de consolider mon apprentissage du développement dans le cadre d'une formation de développeuse web back-end auprès d'Interface3 à Bruxelles. Cette formation intensive de 15 mois m'a permis d'acquérir les compétences nécessaires en utilisant différents langages et frameworks propres à une développeuse web.",
+        "Actuellement je suis à la recherche d'un stage de développement web de 8 semaines, du 17 avril 2024 au 9 juin 2024"
 
     ],
     "about": {

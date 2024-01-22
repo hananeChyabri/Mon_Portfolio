@@ -46,9 +46,8 @@ const fill_content = function (data) {
 
     document.querySelector('.home__title').innerText = data.home.title;
     document.querySelector('.home__subtitle').innerText = data.home.subtitle;
-    document.querySelector('.short__description').innerText = data.home.short_description;
    // document.querySelector('.more__description').innerText = data.home.more_description;
-   const home_descriptionParagraphes = document.querySelectorAll(".paragrapheDes");
+   const home_descriptionParagraphes = document.querySelectorAll(".home__description p");
    for (let i = 0; i < home_descriptionParagraphes.length; i++) {
     console.log(data.home_description[i]);
     home_descriptionParagraphes[i].innerText = data.home_description[i];
