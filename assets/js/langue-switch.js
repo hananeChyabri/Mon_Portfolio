@@ -17,10 +17,6 @@ switchLnaguageIcon.addEventListener('click', (event) => {
 
             fill_content(data);
 
-
-
-
-
         })
         .catch(error => console.error('Error:', error));
 
