@@ -82,6 +82,7 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    cursor: pointer;
 
     
 }
@@ -109,7 +110,7 @@
 
 .langue__switch-toggle p
 {
-    color : black;
+    color: #00000012;
 }
 
 .langue__switch-toggle .active__laguage

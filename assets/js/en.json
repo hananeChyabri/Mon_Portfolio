@@ -10,8 +10,13 @@
         "Contact"
     ],
     "home": {
+<<<<<<< HEAD
         "title": "Hello Word : My name is Hanane Chyabri",
         "subtitle": "Junior Web developer"
+=======
+        "title": "Hello World : My name is Hanane Chyabri",
+        "subtitle": "Junior Web Developer"
+>>>>>>> 60db47b01518cd7c38f27c4e172053775a57ab54
     },
     "home_description": [
         "I remember my first lines of code written on the console in C in 2010...",

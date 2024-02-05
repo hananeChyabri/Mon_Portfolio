@@ -225,19 +225,18 @@ input {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 4rem;
     margin-top: 4rem;
-  }
-  
-  .home__description p {
-  margin-bottom: 15px;
+}
 
-  line-height: 1.6;
-  }
+.home__description p {
+    margin-bottom: 15px;
 
-  .marquee
-  {
+    line-height: 1.6;
+}
+
+.marquee {
     color: var(--active-color);
-  }
-  
+}
+
 
 
 .my__info {
@@ -375,7 +374,7 @@ input {
 }
 
 .about__description {
-    width: 58%;
+    width: 80%;
     margin: auto;
 }
 
@@ -447,8 +446,7 @@ input {
 
 }
 
-.timeline_description
-{
+.timeline_description {
     width: 245px;
 }
 
@@ -492,8 +490,7 @@ input {
     margin-top: 1rem;
 }
 
-.timeline__info 
-{
+.timeline__info {
     font-size: .813rem;
     margin-top: 1rem;
 }
@@ -753,7 +750,7 @@ input {
     display: none;
     padding: 1rem;
     background-color: var(--active-color);
-    color: var(--title-color);
+    color: #3F3D49;
     border-radius: 54px;
     z-index: 1000;
     width: 153px;
@@ -880,36 +877,33 @@ input {
 
 
 /**************************************************CSS CONTACT ************************************/
-.section__contact
-{
+.section__contact {
     padding: 15rem 0 2rem;
 }
 
 .link-contact {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  column-gap: 5rem;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    column-gap: 5rem;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 15rem;
 }
 
-.contact-item{
-  background-color: var(--box-color);
-  padding: 1.25rem;
-  border-radius: .5rem;
-  cursor: pointer;
-  height: 260px;
+.contact-item {
+    background-color: var(--box-color);
+    padding: 1.25rem;
+    border-radius: .5rem;
+    height: 260px;
 }
-.icon__contact
-{
+
+.icon__contact {
     font-size: 5rem;
     margin-top: 3rem;
 }
 
-.subtitle__contact
-{
+.subtitle__contact {
     color: #528abc;
 }
 
@@ -923,8 +917,32 @@ input {
     .home {
         margin-left: -10%;
     }
+
+    .about {
+        padding: 1rem 0px 2rem;
+    }
+
+    .qualification_title {
+        margin-bottom: 1rem;
+    }
+
+    .timeline__item {
+        margin-bottom: 1rem;
+    }
+
+    .home__info,
+    .about_info {
+        text-align: center;
+
+    }
+
+    .about_info {
+        margin-bottom: 1.5rem;
+
+    }
+
     .qualification_container {
-     
+
         column-gap: 4rem;
     }
 
@@ -948,12 +966,38 @@ input {
         margin-left: 6%;
     }
 
+    .skills,
+    .portfolio {
+        padding: 1rem 0px 2rem;
+    }
+
+    .skill__card {
+        height: 250px;
+    }
+
+    .section__title {
+        margin-bottom: 0.5rem;
+    }
+
     .work__container {
         margin-right: 65px;
         margin-left: 6%;
     }
-}
 
+    .work__filters {
+        margin-bottom: 1rem;
+    }
+
+    .section__contact {
+        padding: 3rem 0 2rem;
+    }
+
+    .link-contact {
+
+        margin-top: 4rem;
+    }
+
+}
 
 @media (max-width: 992px) {
 
@@ -964,7 +1008,6 @@ input {
 
     .nav__list {
         display: none;
-
         flex-direction: row-reverse;
         margin: -25px auto 0 100px;
     }
@@ -1006,7 +1049,7 @@ input {
     .work__container {
         margin-right: 55px;
         margin-left: 0;
-        
+
     }
 
 }

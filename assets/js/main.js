@@ -52,6 +52,39 @@ navElements.forEach(element => {
 
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    
+    // window.addEventListener("scroll", function () {
+    //     console.log(window.scrollY);
+    //     if (window.scrollY > 900) {
+    //         console.log("je suis ici");
+    //         navElements.forEach(item => {
+    //             if (item.getAttribute('href') === "#about") 
+    //                 item.classList.add('active-link');
+                
+    //             else item.classList.remove('active-link');});
+    //          }
+    //         });
+
+    window.addEventListener("scroll", function () {
+        console.log(window.scrollY);
+        if (window.scrollY > 644) {
+          navElements.forEach(item => item.classList.toggle('active-link', item.getAttribute('href') === "#about"));
+        }
+        if (window.scrollY > 1250) {
+            navElements.forEach(item => item.classList.toggle('active-link', item.getAttribute('href') === "#skills"));
+          }
+          if (window.scrollY > 1800) {
+            navElements.forEach(item => item.classList.toggle('active-link', item.getAttribute('href') === "#portfolio"));
+          }
+          if (window.scrollY > 2400) {
+            navElements.forEach(item => item.classList.toggle('active-link', item.getAttribute('href') === "#contact"));
+          }
+      });
+        });
+        
+
+
 //changer la couleur de le lemet active dans le filtre portfolio 
 
 
@@ -78,7 +111,7 @@ const pins = document.querySelectorAll('.pin');
 pins.forEach(element => {
     element.addEventListener('click', () => {
         element.classList.toggle('paused');
-});
+    });
 
 });
 
@@ -119,15 +152,15 @@ const navbar = document.getElementById('navbar');
 
 // Fonction pour masquer le menu sur la première section
 function toggleNavbarVisibility() {
-   
-  const homeSection = document.querySelector('.home');
 
-  if (homeSection.getBoundingClientRect().bottom>0) {
-   
-    navbar.classList.add('hidden');
-  } else {
-    navbar.classList.remove('hidden');
-  }
+    const homeSection = document.querySelector('.home');
+
+    if (homeSection.getBoundingClientRect().bottom > 0) {
+
+        navbar.classList.add('hidden');
+    } else {
+        navbar.classList.remove('hidden');
+    }
 }
 
 // Événement pour détecter le défilement de la fenêtre et appeler la fonction
@@ -141,5 +174,9 @@ const button = document.getElementById("my-button");
 const nav = document.querySelector(".nav__list");
 
 button.addEventListener('click', () => {
-  nav.classList.toggle('show');
+    nav.classList.toggle('show');
 });
+
+
+
+
