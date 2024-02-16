@@ -75,7 +75,7 @@
         "Exercices: C# | ASP | Python |PHP"
     ],
     "porjects_description": [
-        "f The website your are navigating right now allows me to display my different projets, professional background and web developer skills. This website is entirely programmed with the web trio HTML/CSS/JavaScript and the integration of MixItUp v3.3.1 library.",
+        "Le site sur lequel vous naviguez actuellement est un projet scolaire qui m'a permis de présenter mes différents projets, mon parcours professionnel et mes compétences de développeuse web. Ce site est entièrement codé avec le trio web HTML/CSS/JavaScript. Incluant des modes bilingues et la possiblité de choisir entre 3 style de colour, avec integration de la bibliothéque MixItUp v3.3.1 pour le filtre.",
         "f The project created in a 3-day hackathon by a team of 4 aimed to develop an interactive page showcasing the importance and role of HTML, CSS, and JavaScript in a web page. Initially, it displayed a basic web page in pure HTML. As the user clicked through, they could choose between 2 different styles to apply to the page. Additionally, they had the ability to add CSS animations and save their preferred version of the page (demonstrating the role of PHP and databases in a web project.) The project provided an opportunity to work as a team and practice using Git.",
         "f Ma Plante",
         "f TO-DO LIST",

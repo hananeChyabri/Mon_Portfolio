@@ -2,11 +2,11 @@
     --color: 200;
     /*hsl(200, 62%, 26%).*/
     --body-font: "Helvetica", sans-serif;
-    --body-color: #F3F4FD;
+    --body-color: #ffffff;/*HSL(240, 100%, 99%);*/
     --title-color: #3F3D49;
     --text-color: #3F3D49;
     --active-color: #FF2C38;
-    --box-color: HSL(240, 100%, 99%);
-    --nav-color: HSL(240, 100%, 99%);
+    --box-color: #F1F2F2;
+    --nav-color: #F9FCFA;
     /* --home-color : HSL(240, 100%, 99%); */
 }

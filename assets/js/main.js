@@ -54,30 +54,19 @@ navElements.forEach(element => {
 
 document.addEventListener("DOMContentLoaded", function () {
     
-    // window.addEventListener("scroll", function () {
-    //     console.log(window.scrollY);
-    //     if (window.scrollY > 900) {
-    //         console.log("je suis ici");
-    //         navElements.forEach(item => {
-    //             if (item.getAttribute('href') === "#about") 
-    //                 item.classList.add('active-link');
-                
-    //             else item.classList.remove('active-link');});
-    //          }
-    //         });
 
     window.addEventListener("scroll", function () {
         console.log(window.scrollY);
-        if (window.scrollY > 644) {
+        if (window.scrollY > 714) {
           navElements.forEach(item => item.classList.toggle('active-link', item.getAttribute('href') === "#about"));
         }
-        if (window.scrollY > 1250) {
+        if (window.scrollY > 1325) {
             navElements.forEach(item => item.classList.toggle('active-link', item.getAttribute('href') === "#skills"));
           }
-          if (window.scrollY > 1800) {
+          if (window.scrollY > 1930) {
             navElements.forEach(item => item.classList.toggle('active-link', item.getAttribute('href') === "#portfolio"));
           }
-          if (window.scrollY > 2400) {
+          if (window.scrollY > 2680) {
             navElements.forEach(item => item.classList.toggle('active-link', item.getAttribute('href') === "#contact"));
           }
       });
