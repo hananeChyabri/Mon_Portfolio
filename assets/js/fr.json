@@ -82,8 +82,10 @@
         "f WeatherApp - Projet React météo",
         "f An ensemble of diversified exercises in C#, ASP.NET, Python, PHP, HTML/CSS covering foundational control structures to advanced concepts such as exception handling, collections, and object-oriented programming "
     ],
-    "contact": {
-       "message": "Je suis convaincue que mon profil dynamique et mon enthousiasme pour le développement font de moi une candidate intéressante capable de contribuer de manière significative au sein de votre équipe. "
-    }
+    "contact": [
+        "Explorez mon profil LinkedIn pour découvrir en détail mes expériences professionnelles et mon parcours académique",
+        "Pour une version imprimée de mon CV, je vous invite à télécharger le fichier PDF disponible.",
+        "N'hésitez pas à explorer mes projets sur GIT : À travers chaque ligne de code, je cherche à donner vie à des idées"
+    ]
 
 }

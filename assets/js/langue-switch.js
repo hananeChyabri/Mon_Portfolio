@@ -42,20 +42,17 @@ const fill_content = function (data) {
 
     document.querySelector('.home__title').innerText = data.home.title;
     document.querySelector('.home__subtitle').innerText = data.home.subtitle;
-   // document.querySelector('.more__description').innerText = data.home.more_description;
-   const home_descriptionParagraphes = document.querySelectorAll(".home__description p");
-   for (let i = 0; i < home_descriptionParagraphes.length; i++) {
-    console.log(data.home_description[i]);
-    home_descriptionParagraphes[i].innerText = data.home_description[i];
-   }
+    // document.querySelector('.more__description').innerText = data.home.more_description;
+    const home_descriptionParagraphes = document.querySelectorAll(".home__description p");
+    for (let i = 0; i < home_descriptionParagraphes.length; i++) {
+        home_descriptionParagraphes[i].innerText = data.home_description[i];
+    }
     document.querySelector('.about_info .section__title').innerText = data.about.about__title;
     document.querySelector('.about__description').innerText = data.about.about__description;
     // document.querySelector('.about__description .textDancing').innerText = data.about__image_title;
     document.querySelector('.qualification_title').innerText = data.about.qualification_title;
     document.querySelector('.about__img__text').innerText = data.about.about__image_title;
     document.querySelectorAll('.timeline__item .timeline__text')[0].innerText = data.timeline__text1;
-
-
 
     const formation_lieus = document.querySelectorAll(".education .timeline__title");
     for (let i = 0; i < formation_lieus.length; i++) {
@@ -78,8 +75,6 @@ const fill_content = function (data) {
     }
 
     /*Parametrer la section Compétences*/
-
-
     const title_section_skills = document.querySelector(".skills .section__title");
     title_section_skills.innerHTML = data.skills.title_section;
 
@@ -91,10 +86,15 @@ const fill_content = function (data) {
     const porjects_descriptions = document.querySelectorAll(".portfolio__item-details .detail__description");
     for (let i = 0; i < porjects_descriptions.length; i++) {
         porjects_descriptions[i].innerText = data.porjects_description[i];
-        console.log(" porjects_descriptions[i]" + porjects_descriptions[i]);
 
     }
+    /*Contact*/
 
+    const contacts = document.querySelectorAll(".link-contact .subtitle__contact");
+    for (let i = 0; i < contacts.length; i++) {
+        console.log(contacts[i])
+        contacts[i].innerText = data.contact[i];
+    }
 
 
 

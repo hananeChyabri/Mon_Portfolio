@@ -31,7 +31,6 @@ let mixerPortfolio = mixitup('.work__container', {
 /*POPUP WORK PORTFOLIO*/
 
 document.addEventListener("click", (event) => {
-    console.log(event.target.classList);
     if (event.target.classList.contains("work__button") || event.target.classList.contains("img__work")) {
 
         OpenClosePortfolio();
@@ -56,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
     
 
     window.addEventListener("scroll", function () {
-        console.log(window.scrollY);
         if (window.scrollY > 714) {
           navElements.forEach(item => item.classList.toggle('active-link', item.getAttribute('href') === "#about"));
         }
@@ -76,9 +74,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //changer la couleur de le lemet active dans le filtre portfolio 
 
-
-
-
 const filtrWorkElements = document.querySelectorAll(".work__item");
 filtrWorkElements.forEach(element => {
 
@@ -92,8 +87,6 @@ filtrWorkElements.forEach(element => {
 
 });
 
-
-
 /* arreter l animation au clique sur le point dans l image de soft skills  */
 
 const pins = document.querySelectorAll('.pin');
@@ -103,7 +96,6 @@ pins.forEach(element => {
     });
 
 });
-
 
 document.querySelector(".portfolio__popup-close").addEventListener("click", OpenClosePortfolio);
 //fonction pour ouvrir/ fermer le popup de chaque work du portfolio
