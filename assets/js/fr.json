@@ -76,11 +76,17 @@
     ],
     "porjects_description": [
         "Le site sur lequel vous naviguez actuellement est un projet scolaire qui m'a permis de présenter mes différents projets, mon parcours professionnel et mes compétences de développeuse web. Ce site est entièrement codé avec le trio web HTML/CSS/JavaScript. Incluant des modes bilingues et la possiblité de choisir entre 3 style de colour, avec integration de la bibliothéque MixItUp v3.3.1 pour le filtre.",
-        "f The project created in a 3-day hackathon by a team of 4 aimed to develop an interactive page showcasing the importance and role of HTML, CSS, and JavaScript in a web page. Initially, it displayed a basic web page in pure HTML. As the user clicked through, they could choose between 2 different styles to apply to the page. Additionally, they had the ability to add CSS animations and save their preferred version of the page (demonstrating the role of PHP and databases in a web project.) The project provided an opportunity to work as a team and practice using Git.",
-        "f Ma Plante",
-        "f TO-DO LIST",
-        "f WeatherApp - Projet React météo",
-        "f An ensemble of diversified exercises in C#, ASP.NET, Python, PHP, HTML/CSS covering foundational control structures to advanced concepts such as exception handling, collections, and object-oriented programming "
+        "The project created in a 3-day hackathon by a team of 4 aimed to develop an interactive page showcasing the importance and role of HTML, CSS, and JavaScript in a web page. Initially, it displayed a basic web page in pure HTML. As the user clicked through, they could choose between 2 different styles to apply to the page. Additionally, they had the ability to add CSS animations and save their preferred version of the page (demonstrating the role of PHP and databases in a web project.) The project provided an opportunity to work as a team and practice using Git.",
+        "Une application symfony qui permet aux utilisateurs de trouver facilement la plante idéale à cultiver chez eux en répondant à quelques critères. En plus, elle offre la possibilité de se connecter/déconnecter, d'ajouter des plantes à leur liste de favoris et de les ajouter au panier.",
+        "TO-DO LIST :  En jQuery, permettant d'ajouter/supprimer/marquer comme terminée des tâches, avec possibilité d'enregistrer les taches même après avoir fermé et rouvert la page grâce au localStorage.",
+        "Ce projet représente une application météo simple construite avec React, tirant parti de l'API OpenWeatherMap pour fournir des données météorologiques en temps réel pour une ville spécifique",
+        "An ensemble of diversified exercises in C#, ASP.NET, Python, PHP, HTML/CSS covering foundational control structures to advanced concepts such as exception handling, collections, and object-oriented programming ",
+        "Le Démineur est un jeu de logique où le joueur découvre des cases sur un plateau, évitant les mines dissimulées, tout en utilisant des indices pour déterminer leur emplacement. L'objectif est de révéler toutes les cases sûres sans déclencher une seule mine",
+        "Gestion des etudiants",
+        "Gestion de Cinema",
+        "Une interface web pour visualiser, trier et ordonner les produits, et les commentaires publiés par les internautes",
+        "Angular comming soon",
+        "Node js comming soon"
     ],
     "contact": [
         "Explorez mon profil LinkedIn pour découvrir en détail mes expériences professionnelles et mon parcours académique",

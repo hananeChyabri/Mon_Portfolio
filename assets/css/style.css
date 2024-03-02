@@ -658,7 +658,8 @@ input {
 }
 
 .details__info li {
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    margin-top: 1.75rem;
     text-transform: capitalize;
     font-size: .813rem;
 }

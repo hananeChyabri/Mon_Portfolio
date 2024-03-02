@@ -77,11 +77,18 @@
     "porjects_description": [
         "The website your are navigating right now allows me to display my different projets, professional background and web developer skills. This website is entirely programmed with the web trio HTML/CSS/JavaScript and the integration of MixItUp v3.3.1 library.",
         "The project created in a 3-day hackathon by a team of 4 aimed to develop an interactive page showcasing the importance and role of HTML, CSS, and JavaScript in a web page. Initially, it displayed a basic web page in pure HTML. As the user clicked through, they could choose between 2 different styles to apply to the page. Additionally, they had the ability to add CSS animations and save their preferred version of the page (demonstrating the role of PHP and databases in a web project.) The project provided an opportunity to work as a team and practice using Git.",
-        "Ma Plante",
-        "TO-DO LIST",
-        "WeatherApp - Projet React météo",
-        "An ensemble of diversified exercises in C#, ASP.NET, Python, PHP, HTML/CSS covering foundational control structures to advanced concepts such as exception handling, collections, and object-oriented programming "
-    ],
+        "An symfony application that helps users find their ideal plant to grow at home by filling out a set of filters.  It also offers the ability to log in/out, add plants to their favorites list, and add plants to the shopping cart.",
+        "TO-DO LIST: Built with jQuery, allowing users to add/remove/mark tasks as completed, with the ability to save tasks even after closing and reopening the page using localStorage",
+        "This project is a simple weather application built with React, using the OpenWeatherMap API to provide real-time weather data for a specific city",
+        "An ensemble of diversified exercises in C#, ASP.NET, Python, PHP, HTML/CSS covering foundational control structures to advanced concepts such as exception handling, collections, and object-oriented programming ",
+        "is a logic game where the player uncovers squares on a board, avoiding hidden mines while using clues to determine their locations. The objective is to reveal all safe squares without triggering a single mine",
+        "Gestion des etudiants",
+        "Gestion de Cinema",
+        "A web interface for viewing, sorting, and organizing products, as well as comments posted by users",
+        "Angular comming soon",
+        "Node js comming soon"
+    ]
+  ,
     "contact": [
         "Explore my LinkedIn profile to discover in detail my professional experiences and academic background.",
         "For a printed version of my resume, I invite you to download the available PDF file",
