@@ -11,7 +11,8 @@
     ],
     "home": {
         "title": "Hello World : My name is Hanane Chyabri",
-        "subtitle": "Junior Web Developer"
+        "subtitle": "Junior Web Developer",
+        "buttonMoreAboutMe": "More about Me"
     },
     "home_description": [
         "I remember my first lines of code written on the console in C in 2010...",

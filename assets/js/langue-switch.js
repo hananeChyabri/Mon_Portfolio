@@ -42,7 +42,7 @@ const fill_content = function (data) {
 
     document.querySelector('.home__title').innerText = data.home.title;
     document.querySelector('.home__subtitle').innerText = data.home.subtitle;
-    // document.querySelector('.more__description').innerText = data.home.more_description;
+    document.querySelector('.about__Button').innerText = data.home.buttonMoreAboutMe;
     const home_descriptionParagraphes = document.querySelectorAll(".home__description p");
     for (let i = 0; i < home_descriptionParagraphes.length; i++) {
         home_descriptionParagraphes[i].innerText = data.home_description[i];
